@@ -17,6 +17,10 @@ defmodule BlockScoutWeb.LayoutView do
 
   alias BlockScoutWeb.SocialMedia
 
+  def is_testnet do
+    Keyword.get(application_config(), :is_testnet)
+  end
+
   def logo do
     Keyword.get(application_config(), :logo)
   end
