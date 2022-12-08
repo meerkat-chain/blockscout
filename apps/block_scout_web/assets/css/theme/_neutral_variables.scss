@@ -1,15 +1,15 @@
 // general
-$primary: #5c34a2;
-$secondary: #87e1a9;
+$primary: #000;
+$secondary: #a7f3d0;
 $tertiary: #bf9cff;
 $additional-font: #fff;
 
 // footer
 $footer-background-color: #3c226a;
 $footer-title-color: #fff;
-$footer-text-color: #bda6e7;
+$footer-text-color: #fff;
 $footer-item-disc-color: $secondary;
-.footer-logo { filter: brightness(0) invert(1); }
+// .footer-logo { filter: brightness(0) invert(1); }
 
 // dashboard
 $dashboard-line-color-price: $tertiary; // price left border
@@ -54,11 +54,12 @@ $card-tab-active: $primary;
 
 .layout-container {
 	.dashboard-banner-container {
-	  background-image: linear-gradient(
-	    to bottom,
-	    $dashboard-banner-gradient-start,
-	    $dashboard-banner-gradient-end
-	  );
+	  // background-image: linear-gradient(
+	  //   to right,
+	  //   $dashboard-banner-gradient-start,
+	  //   $dashboard-banner-gradient-end
+	  // );
+		background: linear-gradient(135deg, #000000, #000000, #000000, #000000, #250f06, #641910, #aa1a14);
 	}
 }
 

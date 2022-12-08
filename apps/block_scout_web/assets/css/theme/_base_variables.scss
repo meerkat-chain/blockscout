@@ -11,15 +11,15 @@ $common-container-margin: 50px !default;
 
 // stylelint-disable
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #828ba0 !default;
-$gray-600: #cdcdcc !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-100: #f4f4f5 !default;
+$gray-200: #e4e4e7 !default;
+$gray-300: #d4d4d8 !default;
+$gray-400: #a1a1aa !default;
+$gray-500: #71717a !default;
+$gray-600: #52525b !default;
+$gray-700: #3f3f46 !default;
+$gray-800: #27272a !default;
+$gray-900: #18181b !default;
 $black: #000 !default;
 
 $grays: () !default;
@@ -44,11 +44,11 @@ $purple: #997fdc !default;
 $pink: #e83e8c !default;
 $lilac: #b38dc9 !default;
 $red: #c74d39 !default;
-$orange: #ef9a60 !default;
-$yellow: #ffc107 !default;
-$green: #20b760 !default;
+$orange: #f97316 !default;
+$yellow: #facc15 !default;
+$green: #34d399 !default;
 $teal: #009097 !default;
-$cyan: #90e1d8 !default;
+$cyan: #22d3ee !default;
 $dark-purple: #923dc3;
 
 $colors: () !default;
@@ -71,9 +71,9 @@ $colors: map-merge(
   $colors
 );
 
-$primary: $indigo !default;
-$dark-primary: #9b62ff !default;
-$dark-primary-alternate: #9b62ff !default;
+$primary: $blue !default;
+$dark-primary: #34d399 !default;
+$dark-primary-alternate: #34d398 !default;
 $secondary: #7dd79f !default;
 $dark-secondary: #87e1a9 !default;
 $tertiary: $purple !default;

@@ -154,6 +154,8 @@ $card-tab-icon-color-active: #fff !default;
 }
 
 .card-body {
+  border: 1px solid #27272a;
+  border-radius: 8px;
   padding: $card-horizontal-padding;
 }
 
